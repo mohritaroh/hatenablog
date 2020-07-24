@@ -1,0 +1,82 @@
+/* <system section="theme" selected="8599973812333959601"> */
+@import url("https://blog.hatena.ne.jp/-/theme/8599973812333959601.css");
+/* </system> */
+
+/* <system section="background" selected="ebe9e3"> */
+body{background:#ebe9e3;}
+/* </system> */
+
+html { font-size: 90%; }
+
+#content-inner {
+    line-height: 1.8;
+}
+
+@media (min-width: 992px) {
+  #box2 {
+    width: 340px;
+  }
+}
+
+h3 { border-bottom: 1px solid #ccc; }
+
+/* figure and caption */
+.entry-content figure {
+    margin: 1em 0;
+}
+.entry-content figure figcaption {
+    margin-top: 5px;
+    font-size: smaller;
+}
+
+/* souce code etc. */
+.entry-content pre {
+    font-size: .9rem;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    padding: 1em 2em;
+}
+
+/* table of contents */
+.entry-content .table-of-contents li {
+    list-style-type: none;
+}
+
+/* Hatena style */
+cite.hatena-citation {
+    text-align: right;
+    max-width: 500px;
+    margin-top: -10px;
+    font-size: xx-small;
+}
+.hatena-id-icon {
+    position: initial;
+    width: 16px !important;;
+    height: 16px !important;;
+}
+
+/* Google photo */
+.google-auto-placed.ap_container {
+    margin: 1.5em 0;
+}
+
+/* Twitter */
+.twitter-tweet.twitter-tweet-rendered {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 2em 0;
+}
+
+/* Instagram */
+.instagram-media {
+    margin: 2em auto !important;
+}
+
+/* Facebook embed */
+iframe[src*="www.facebook.com/plugins/post.php"] {
+    margin: 2em auto !important;
+    display: block;
+}
+._5pbw, ._5pbx {
+    font-size: inherit !important;
+}
