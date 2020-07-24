@@ -54,6 +54,9 @@ cite.hatena-citation {
     width: 16px !important;;
     height: 16px !important;;
 }
+span[itemtype="http://schema.org/Photograph"] img {
+    max-width: 700px;
+}
 
 /* Google photo */
 .google-auto-placed.ap_container {
